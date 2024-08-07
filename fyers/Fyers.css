@@ -1,0 +1,89 @@
+*{margin-top: .5rem;
+    padding: 0;
+    text-align: center;
+
+}
+h1,h2{
+    margin-bottom: 0;
+    font-size: 2em;
+}
+h2{
+    font-size: 1em;
+}
+body img {
+    margin-top: 5rem;
+}
+.main{
+    width: 30%;
+    text-align: left;
+    margin:3% auto;
+    height: 85%;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: rgb(175, 194, 212);
+    /* border: 1px rgb(31, 30, 30) solid; */
+    /* border-radius: 5px; */
+    background-color: rgb(24, 26, 27);
+}
+.password{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1rem;
+    justify-content: space-between;
+}
+.password input{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    margin-right: 0.5rem;
+    background-color: rgb(24, 26, 27);
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+
+}
+button{
+    color: white;
+    background-color: rgb(6, 22, 255);
+    text-align: center;
+    width: 100%;
+    border: 2px solid rgb(2, 2, 253) ;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+    cursor: alias;
+    font-size: 1rem;
+    line-height: 2;
+    
+}
+a{
+    cursor: pointer;
+
+}
+a:hover ,a:focus{
+    color: aqua;
+}
+a:visited{
+    color: blueviolet;
+}
+a :active{
+    color: aquamarine;
+}
+.outer{
+    margin-top:.5rem;
+    color:rgb(175, 194, 212) ;
+    font-size: 1rem;
+    text-align:justify;
+}
+form p{
+    margin-bottom: 25px;
+    font-weight: 100;
+    font-size: 1.10em;
+    text-align: justify;
+}
