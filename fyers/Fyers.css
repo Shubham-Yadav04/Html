@@ -3,24 +3,44 @@
     text-align: center;
 
 }
-h1,h2{
-    margin-bottom: 0;
-    font-size: 2em;
-}
-h2{
-    font-size: 1em;
-}
-body img {
-    margin-top: 5rem;
-}
-.main{
-    width: 30%;
-    text-align: left;
-    margin:3% auto;
-    height: 85%;
-   
+.outer{
+    width:45vmax;
+    height:fit-content;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
+
+
+.outer img {
+   margin: 0 auto;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+}
+.main{
+    width: 70%;
+    text-align: left;
+    margin:1rem auto;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+   
+}
+.Para{
+    
+    height: fit-content;
+    margin-top:.5rem;
+    color:rgb(175, 194, 212) ;
+    font-size: 2vmin;
+    text-align: left;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -28,9 +48,20 @@ form{
     justify-content: space-between;
     align-items: flex-start;
     color: rgb(175, 194, 212);
-    /* border: 1px rgb(31, 30, 30) solid; */
-    /* border-radius: 5px; */
+   
+    border-radius: 5px;
     background-color: rgb(24, 26, 27);
+}
+
+
+
+h1{
+    margin-bottom: 0;
+    font-size: 3vmax;
+}
+h2{
+    margin-bottom: 0;
+    font-size: 2vmax;
 }
 .password{
     display: flex;
@@ -41,12 +72,13 @@ form{
 .password input{
     width: 100%;
     display: block;
-    font-size: 1rem;
+    font-size: 2vmax;
     line-height: 2.5rem;
     margin-right: 0.5rem;
     background-color: rgb(24, 26, 27);
     border: 1px solid rgb(223, 223, 223);
     border-radius: 5px;
+    color: blue;
 
 }
 button{
@@ -58,7 +90,7 @@ button{
     border-radius: .5rem;
     margin-top: 1.5rem;
     cursor: alias;
-    font-size: 1rem;
+    font-size: 3vmin;
     line-height: 2;
     
 }
@@ -75,15 +107,10 @@ a:visited{
 a :active{
     color: aquamarine;
 }
-.outer{
-    margin-top:.5rem;
-    color:rgb(175, 194, 212) ;
-    font-size: 1rem;
-    text-align:justify;
-}
+
 form p{
     margin-bottom: 25px;
-    font-weight: 100;
-    font-size: 1.10em;
+  
+    font-size: 2vmin;
     text-align: justify;
 }
